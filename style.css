@@ -1,0 +1,556 @@
+@font-face {
+    font-family: fontpadrao;
+    src: url(OpenSans-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    font-family: fontpadrao;
+ }
+
+ main {
+    display: block;
+ }
+
+/* -----------ATENÇÃO-------------------
+    AQUI COMEÇA O HEADER DAS PÁGINAS 
+--------------ATENÇAO--------------------
+*/
+
+header{
+    display: flex;
+    padding: 20px;
+    background: #ffff;
+    align-items: center;
+    box-shadow: 0px 9px 14px 1px #bdbcbc88;
+}
+
+header a {
+    color:  #382c32;
+    text-decoration: none;
+    margin: 20px;
+    transition: .5s;
+}
+header img {
+    width: 20%;
+    margin-left: 150px;
+}
+
+header nav{
+    margin: 0;
+    margin-left:auto;
+}
+
+header a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover{
+    color:#ffff ;
+    background-color: #FF0077;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a.ativo {
+    background-color: green;
+}
+
+/* -----------ATENÇÃO-------------------
+       FINAL HEADER PÁGINAS
+--------------ATENÇAO--------------------
+*/
+
+
+
+
+/* -----------ATENÇÃO-------------------
+   AQUI COMEÇA O CORPO DA PÁGINA HOME
+--------------ATENÇAO--------------------
+*/
+
+.banner {
+    width: 100%;
+}
+
+.container-servicos {
+    display: flex;
+    width: 80%;
+    margin-left: 120px;
+    align-items:baseline;
+}
+
+.container-servicos h2 {
+    color: #FF0077;
+    font-size: 18px;
+}
+
+.container-servicos p {
+    color: #858585;
+    opacity: 80%;
+    font-size: 16px;
+}
+.texto-servicos {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+.column-servicos {
+    margin: 35px;
+    text-align:center;
+}
+
+.container-servicos i:hover{
+    transform:rotate(-5deg);
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.descricao {
+    color: #ffff;
+    background-color: #0077ff;
+    padding: 55px;
+}
+
+.img-descricao {
+    width: 250px;
+    margin-bottom: 30px;
+}
+.titulo-produtos {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-produtos {
+    margin: 20px;
+}
+
+.row-produtos {
+    display: flex;
+}
+
+.column-produtos {
+    flex: 0%;
+    text-align: center;
+    margin: 15px;
+}
+
+.column-produtos img {
+    width: 100%;
+}
+
+.container-produtos h4 {
+    color: #FF0077;
+}
+
+.container-produtos h6 {
+    color: #382c32;
+    opacity: 80%;
+}
+
+.column-produtos:hover {
+    border-radius: 10px;
+    border: 2px solid #cecece;
+    opacity: 30%;
+    transition: .4s;
+}
+
+.container-produtos button {
+    font-family: fontpadrao;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background-color: #FF0077;
+    padding: 12px 50px 12px 50px;
+    border-radius: 10px;
+}
+
+.botao-produtos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+/* -----------ATENÇÃO-------------------
+        FINAL PÁGINA HOME
+--------------ATENÇAO--------------------
+*/
+
+
+
+
+
+/* -----------ATENÇÃO-------------------
+     COMEÇA CORPO PÁGINA "SOBRE"
+--------------ATENÇAO--------------------
+*/
+.container-psobre {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.column-psobre {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px;
+
+}
+
+.img-sobre {
+    width: 90%;
+}
+
+
+.botao-psobre {
+    font-family: fontpadrao;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background-color: #FF0077;
+    padding: 12px 50px 12px 50px;
+    border-radius: 10px;
+    align-items: center;
+    padding-top: -10px;
+}
+
+/* -----------ATENÇÃO-------------------
+      FINAL PÁGINA "SOBRE"
+--------------ATENÇAO--------------------
+*/
+
+
+
+
+
+/* -----------ATENÇÃO-------------------
+     COMEÇA O CORPO PÁGINA SERVIÇOS
+--------------ATENÇAO--------------------
+*/
+
+.container-bt {
+    display: flex;
+    align-items: center;
+}
+.main-servicos p {
+    opacity: 80%;
+}
+
+.container-bt img {
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+.container-bt h2 {
+    color: #FF0077;
+    margin-left: 50px;
+    padding-right: 80px;
+}
+
+.container-bt h4 {
+    color: #382c32;
+    margin-left: 50px;
+    padding-right: 80px;
+}
+.container-bt p {
+    margin-left: 50px;
+    padding-right: 80px;
+    color: #858585;
+}
+
+.container-cm {
+    display: flex;
+    background-color: #FF0077;
+    align-items: center;
+}
+
+.container-cm img {
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+.texto-centro-medico{
+    text-align: right;
+    padding-right: 40px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+
+.container-fp {
+    display: flex;
+    background-color:#0077ff;
+    align-items: center;
+}
+
+.texto-farmaciapet{
+    padding-right: 40px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.container-fp img {
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+.container-delivery {
+    display: flex;
+    background-color: #FF320D;
+    align-items: center;
+}
+
+.texto-teleentrega{
+    text-align: right;
+    margin-left: 80px;
+    padding-right: 40px;
+    color: #ffff;
+}
+
+.column-delivery img{
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+.container-tb {
+    display: flex;
+    background-color: #C10DFF;
+    align-items: center;
+}
+
+.texto-telebusca{
+    padding-right: 80px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.column-tb img{
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+.container-creche {
+    display: flex;
+    background-color: #6cf515;
+    align-items: center;
+}
+
+.texto-creche{
+    text-align: right;
+    margin-left: 80px;
+    padding-right: 40px;
+    color: #ffff;
+}
+
+.column-creche img{
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+
+.container-hotel {
+    display: flex;
+    background-color: #382c32;
+    align-items: center;
+}
+
+.texto-hotel{
+    padding-right: 80px;
+    margin-left: 40px;
+    color: #ffff;
+}
+
+.column-hotel img{
+    height: 450px;
+    object-fit: cover;
+    width: 600px;
+    margin-bottom: -5px;
+}
+/* -----------ATENÇÃO-------------------
+      FINAL PÁGINA "SERVIÇO"
+--------------ATENÇAO--------------------
+*/
+
+
+
+
+
+
+/* -----------ATENÇÃO-------------------
+   COMEÇA O CORPO PÁGINA FALE CONOSCO
+--------------ATENÇAO--------------------
+*/
+
+
+.row-formulario{
+    display: flex;
+    text-align: left;
+    width: 90vw;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+}
+.collumnformulario{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    height: 800px;
+}
+.collumn-formulario{
+    width: 400px;
+    margin-left: 50px;
+    text-align: left;
+}
+.collumn-formulario p{
+color: #FF0077;
+}
+.collumn-formulario iframe{
+    width: 350px;
+    height: 200px;
+}
+input, select{
+    box-sizing: border-box;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid #858585 0.5px;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    border: solid #858585 0.5px;
+}
+button{
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background-color: #FF0077;
+    padding: 12px 50px 12px 50px;
+    border-radius: 10px;
+}
+.row-formulario h2{
+    text-align: left;
+}
+label {
+    color: #858585;
+}
+.collumn-formulario h4{
+    color: #858585;
+}
+/* -----------ATENÇÃO-------------------
+      FINAL PÁGINA "FALE CONOSCO"
+--------------ATENÇAO--------------------
+*/
+
+
+
+
+
+/* -----------ATENÇÃO-------------------
+AQUI CONTÉM O FOOTER DAS PÁGINAS (RODAPÉ)
+--------------ATENÇAO--------------------
+*/
+
+footer {
+    background-color: #FF0077;
+    padding: 50px;
+}
+
+
+.logo-footer {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.container-footer {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+.column-footer {
+    margin: 90px;
+    margin-top: -90px;
+    margin-bottom: 20px;
+}
+
+.container-footer, h4 {
+    color: #ffff;
+
+}
+
+.contato-footer p {
+    color: #ffff;
+}
+
+.contato-footer, a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.h4horario {
+    text-align: center;
+}
+
+.hf-footer {
+    text-align: center;
+}
+
+.h4-redes-sociais {
+    text-align: right;
+}
+
+.hr-footer {
+    max-width: 90%;
+    background-color: #ffd8ea;
+    opacity: 20%;
+}
+
+.direitos-footer {
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-rd {
+    display: flex;
+    width: 100%;
+}
+
+.container-rd i {
+    margin: 10px;
+}
+
+#horariofooter {
+    margin-left: -50px;
+}
+
+.container-footer i:hover {
+    transition: .5s;
+    transform:rotate(-10deg);
+}
+
+
+/* COMPARTILHEI A ESTILIZAÇÃO DA PÁGINA COM ALGUNS COLEGAS QUE TINHAM ALGUMA DIFICULDADE
+MUITO PROVAVELMENTE A ESTILIZAÇÃO DO ARTHUR E GUILHERMO TENHAM ALGUMA SEMELHANÇA COM O MEU.
+
+OBS: NÃO CONSEGUI FIXAR A COR NO MENU, PESQUISEI VI QUE POSSO FAZER USANDO JAVASCRIPT, PORÉM NÃO TENTEI FAZER
+
+OBS: PENSEI EM REFAZER TODO O PROJETO DE NOVO, POIS MUITOS DETALHES FICARAM DE FORA, MAS NÃO TIVE TEMPO
+*/
